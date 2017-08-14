@@ -1,5 +1,5 @@
 function initialize() {
-  var myLatlng = new google.maps.LatLng(134.559225, 34.065687);
+  var myLatlng = new google.maps.LatLng(35.1771, 135.035854);
   var mapOptions = {
     zoom: 16,
     center: myLatlng
@@ -8,7 +8,7 @@ function initialize() {
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
   var georssLayer = new google.maps.KmlLayer({
-    url: 'http://api.flickr.com/services/feeds/geo/?g=57577915@N00&format=feed-georss'
+    url: 'http://api.flickr.com/services/feeds/geo/?g=72157680985324873&format=feed-georss'
   });
   georssLayer.setMap(map);
 }
