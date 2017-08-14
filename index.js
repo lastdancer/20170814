@@ -8,7 +8,7 @@ function initialize() {
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
   var georssLayer = new google.maps.KmlLayer({
-    url: 'http://api.flickr.com/services/feeds/geo/?g=72157680985324873&format=feed-georss'
+    url: 'http://api.flickr.com/services/feeds/geo/?a=72157680985324873&format=feed-georss'
   });
   georssLayer.setMap(map);
 }
